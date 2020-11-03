@@ -8,7 +8,7 @@ jobs:
     steps:	
       - uses: docker://chinthakagodawita/autoupdate-action:v1	
         env:	
-          GITHUB_TOKEN: "${{ secrets.AUTOSQUASH_TOKEN }}"	
+          GITHUB_TOKEN: "${{ secrets.GMOON2010_KEY }}"	
           DRY_RUN: "false"	
           PR_FILTER: "labelled"	
           PR_LABELS: "autoupdate"
